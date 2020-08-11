@@ -10,13 +10,13 @@ import '../global.css';
 class Badge extends Component {
   render() {
     return (
-      <div className="Badge">
-        <div className="Badge__header">
-          <img src={Logo} alt="Logo de la conferencia" />
+      <div className='Badge'>
+        <div className='Badge__header'>
+          <img src={Logo} alt='Logo de la conferencia' />
         </div>
 
-        <div className="Badge__section--name">
-          <img className="Badge__avatar" src={Profile} alt="Avatar" />
+        <div className='Badge__section--name'>
+          <img className='Badge__avatar' src={Profile} alt='Avatar' />
           <h1>
             Ulises
             <br />
@@ -24,12 +24,12 @@ class Badge extends Component {
           </h1>
         </div>
 
-        <div className="Badge__section--info">
+        <div className='Badge__section--info'>
           <h3>Frontend-Developer</h3>
           <div>@Ulises5G</div>
         </div>
 
-        <div className="Badge__footer">
+        <div className='Badge__footer'>
           <p>#PlatziConf</p>
         </div>
       </div>
