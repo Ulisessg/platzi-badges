@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import Badge from './components/Badge';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Badge />, document.getElementById('root'));
